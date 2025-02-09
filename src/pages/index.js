@@ -17,7 +17,11 @@ const IndexPage = () => {
         <div className='max-w-screen-lg mx-auto'>
             <header>
                 {/* main header */}
-                <div className='bg-blue-200 m-5 mb-2.5 relative overflow-hidden' style={{borderRadius: radius + 'px', height: '500px'}}>
+                <div className='bg-blue-200 m-5 mb-2.5 relative overflow-hidden' style={{
+                        borderTopLeftRadius: radius + 'px',
+                        borderBottomLeftRadius: radius + 'px',
+                        height: '500px'
+                    }}>
                     <div className='absolute pr-2 top-0 right-0 left-0 bottom-0 flex items-center justify-center'>
                         <div className='hidden md:block self-end'>
                             <StaticImage
@@ -81,11 +85,21 @@ const IndexPage = () => {
                     {/* box3 */}
                     <div className='relative text-white'>
                         {/* black background */}
-                        <div className='absolute right-0 bottom-0 bg-black' style={{top: (- over - padding) + 'px', left: (- padding) + 'px', borderRadius: radius + 'px', borderTopRightRadius: '0px'}}></div>
+                        <div className='absolute right-0 bottom-0 bg-black' style={{
+                                top: (- over - padding) + 'px',
+                                left: (- padding) + 'px',
+                                borderRadius: radius + 'px',
+                                borderTopRightRadius: '0px'
+                            }}></div>
                         {/* color background */}
                         <div className='absolute right-0 bottom-0 left-0 bg-gray-700' style={{top: (- over) + 'px', borderRadius: radius + 'px'}}></div>
                         {/* left */}
-                        <div className='absolute bg-black' style={{height: radius + 'px', width: radius + 'px', top: (- padding - radius) + 'px', left: (- padding - radius) + 'px'}}>
+                        <div className='absolute bg-black' style={{
+                                height: radius + 'px',
+                                width: radius + 'px',
+                                top: (- padding - radius) + 'px',
+                                left: (- padding - radius) + 'px'
+                            }}>
                             <div className='bg-blue-200 absolute top-0 right-0 left-0 bottom-0' style={{borderBottomRightRadius: radius + 'px'}}/>
                         </div>
                         {/* right */}
