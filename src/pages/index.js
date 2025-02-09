@@ -46,10 +46,18 @@ const IndexPage = () => {
                     </div>
                     <div className='absolute bg-black top-0 right-0 text-lg uppercase font-bold py-5 px-8' style={{borderBottomLeftRadius: radius + 'px'}}>
                         <a className='text-yellow-300' href='#Download'>Download</a>
-                        <div className='absolute bg-black top-0' style={{height: radius + 'px', width: radius + 'px', left: -radius + 'px'}}>
+                        <div className='absolute bg-black top-0' style={{
+                                height: radius + 'px',
+                                width: radius + 'px',
+                                left: -radius + 'px'
+                            }}>
                             <div className='bg-blue-200 absolute top-0 right-0 left-0 bottom-0' style={{borderTopRightRadius: radius + 'px'}}/>
                         </div>
-                        <div className='absolute bg-black right-0' style={{height: radius + 'px', width: radius + 'px', bottom: -radius + 'px'}}>
+                        <div className='absolute bg-black right-0' style={{
+                                height: radius + 'px',
+                                width: radius + 'px',
+                                bottom: -radius + 'px'
+                            }}>
                             <div className='bg-blue-200 absolute top-0 right-0 left-0 bottom-0' style={{borderTopRightRadius: radius + 'px'}}/>
                         </div>
                     </div>
@@ -103,7 +111,11 @@ const IndexPage = () => {
                             <div className='bg-blue-200 absolute top-0 right-0 left-0 bottom-0' style={{borderBottomRightRadius: radius + 'px'}}/>
                         </div>
                         {/* right */}
-                        <div className='absolute bg-black right-0' style={{height: radius + 'px', width: radius + 'px', top: (- over - padding - radius) + 'px'}}>
+                        <div className='absolute bg-black right-0' style={{
+                                height: radius + 'px',
+                                width: radius + 'px',
+                                top: (- over - padding - radius) + 'px'
+                            }}>
                             <div className='bg-blue-200 absolute top-0 right-0 left-0 bottom-0' style={{borderBottomRightRadius: radius + 'px'}}/>
                         </div>
                         {/* body, CALC - padding */}
@@ -130,7 +142,10 @@ const IndexPage = () => {
             </main>
 
             <footer>
-                <div className='p-5 m-5 mb-0 bg-gray-700 text-white' style={{borderTopLeftRadius: radius + 'px', borderTopRightRadius: radius + 'px'}}>
+                <div className='p-5 m-5 mb-0 bg-gray-700 text-white' style={{
+                        borderTopLeftRadius: radius + 'px',
+                        borderTopRightRadius: radius + 'px'
+                    }}>
                     <div className='py-5 text-center'>
                         <a className='p-5 hover:text-gray-300 font-bold' href='#Blog'>Blog</a>
                         <a className='p-5 hover:text-gray-300 font-bold' href='#Contact'>Contact</a>
